@@ -1,0 +1,25 @@
+* { margin: 0; padding: 0; border: none; }
+
+body { 
+	margin: 0; 
+}
+
+h2 {
+	float: left;
+	box-sizing: border-box;
+	padding-top: 45px;
+	padding-bottom: 45px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	width: 100%;
+	font-size: 600%
+}
+
+
+.toprow{
+    float: left;
+    width:  20%;
+    height: 220px;
+    object-fit: cover;
+}
