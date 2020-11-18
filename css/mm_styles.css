@@ -29,6 +29,25 @@
   opacity: 0.5;
 }
 
+.textbg {
+	font-family: 'Syncopate', sans-serif;
+	font-size: 2.9em;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+	position: relative;
+	top: 50%;
+	text-align: center;
+	color: white;
+	height: -100px;
+	-webkit-transform : rotate(-45deg) scale(1.0);
+	line-height: 0px;
+}
+
+.budge{
+	position: relative;
+	right: -20px;
+}
+
 .M1-shape li:hover {
   opacity: 1;
 }
@@ -65,13 +84,6 @@
 }
 
 .M1-shape li.item1 .bg {
-  background: url(http://localhost:3000/images/d.png);
-  background-size: cover;
-  background-position: center;
-  -webkit-transform : rotate(90deg) scale(1.55);
-}
-
-.M1-shape li.item2 .bg {
   background: url(http://localhost:3000/images/b.png);
   background-size: cover;
   background-position: center;
@@ -79,6 +91,13 @@
   bottom:0px;
   right:0px;
   -webkit-transform : rotate(-45deg) scale(1.4);
+}
+
+.M1-shape li.item2 .bg {
+  background: url(http://localhost:3000/images/d.png);
+  background-size: cover;
+  background-position: center;
+  -webkit-transform : rotate(90deg) scale(1.55);
 }
 
 .M1-shape li.item3 .bg {
@@ -183,9 +202,9 @@
   background: url(http://localhost:3000/images/r.png);
   background-size: cover;
   position:absolute;
-  bottom:-35px;
-  right:-45px;
-  -webkit-transform : rotate(-45deg) scale(1.8);
+  bottom:0px;
+  right:0px;
+  -webkit-transform : rotate(-45deg) scale(1.3);
 }
 
 .M2-shape li.item3 .bg {
@@ -215,3 +234,28 @@
   -webkit-transform : rotate(-45deg) scale(1.4);
 }
 
+
+/*BACKGROUND COLOUR ANIMATION */
+/* https://stackoverflow.com/questions/27766343/change-background-color-every-30s-fade-transition/27766408 */
+
+
+.textbg {
+  -webkit-animation: background 5s cubic-bezier(1,0,0,1) infinite;
+  animation: background 100s cubic-bezier(1,0,0,1) infinite;  
+}
+
+
+@-webkit-keyframes background {
+  0% { color : #f99; }
+  33% { color: #9f9; }  
+  67% { color: #99f; }
+  100% { color: #f99; }
+}
+
+@keyframes background {
+  0% { color: white; }
+  40% { color: #f99; }
+  60% { color: #9f9; }  
+  80% { color: #99f; }
+  100% { color: #f99; }
+}
