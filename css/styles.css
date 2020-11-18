@@ -6,6 +6,8 @@ body {
 
 h2 a  {
 	float: left;
+
+	font-family: 'Iceland', cursive;
 	box-sizing: border-box;
 	padding-top: 45px;
 	padding-bottom: 45px;
@@ -13,7 +15,7 @@ h2 a  {
 	background-color: black;
 	color: white;
 	width: 100%;
-	font-size: 400%
+	font-size: 400%;
 }
 
 a:link {
