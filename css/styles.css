@@ -4,7 +4,7 @@ body {
 	margin: 0; 
 }
 
-h2 {
+h2 a  {
 	float: left;
 	box-sizing: border-box;
 	padding-top: 45px;
@@ -13,9 +13,24 @@ h2 {
 	background-color: black;
 	color: white;
 	width: 100%;
-	font-size: 600%
+	font-size: 400%
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
 
 .toprow{
     float: left;
