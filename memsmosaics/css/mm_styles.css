@@ -94,7 +94,7 @@
 }
 
 .M1-shape li.item2 .bg {
-  background: url(http://localhost:3000/images/d.png);
+  background: url(../images/d.png);
   background-size: cover;
   background-position: center;
   -webkit-transform : rotate(90deg) scale(1.55);
