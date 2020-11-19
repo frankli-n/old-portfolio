@@ -237,7 +237,7 @@
 
 /*BACKGROUND COLOUR ANIMATION */
 /* https://stackoverflow.com/questions/27766343/change-background-color-every-30s-fade-transition/27766408 */
-
+/*
 
 .textbg {
   -webkit-animation: background 5s cubic-bezier(1,0,0,1) infinite;
@@ -258,4 +258,4 @@
   60% { color: #9f9; }  
   80% { color: #99f; }
   100% { color: #f99; }
-}
+}*/
