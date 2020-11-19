@@ -84,7 +84,7 @@
 }
 
 .M1-shape li.item1 .bg {
-  background: url("file:///Users/Frankie/Html-Css-Javascript/portfolio/memsmosaics/images/b.png");
+  background: url("/images/b.png");
   background-size: cover;
   background-position: center;
   position:absolute;
