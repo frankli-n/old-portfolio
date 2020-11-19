@@ -101,7 +101,7 @@
 }
 
 .M1-shape li.item3 .bg {
-  background: url(http://localhost:3000/images/p.png);
+  background: url(../images/p.png);
   background-size: cover;
   background-position: center;
   position:absolute;
@@ -111,7 +111,7 @@
 }
 
 .M1-shape li.item4 .bg {
-  background: url(http://localhost:3000/images/l.png);
+  background: url(../images/l.png);
   background-size: cover;
   background-position: center;
   position:absolute;
@@ -121,7 +121,7 @@
 }
 
 .M1-shape li.item5 .bg {
-  background: url(http://localhost:3000/images/c.png);
+  background: url(../images/c.png);
   background-size: cover;
   position:absolute;
   bottom:-30px;
@@ -189,7 +189,7 @@
 }
 
 .M2-shape li.item1 .bg {
-  background: url(http://localhost:3000/images/q.png);
+  background: url(../images/q.png);
   background-size: cover;
   position:absolute;
   bottom:-35px;
@@ -199,7 +199,7 @@
 
 
 .M2-shape li.item2 .bg {
-  background: url(http://localhost:3000/images/r.png);
+  background: url(../images/r.png);
   background-size: cover;
   position:absolute;
   bottom:0px;
@@ -217,7 +217,7 @@
 }
 
 .M2-shape li.item4 .bg {
-  background: url(http://localhost:3000/images/v.jpg);
+  background: url(../images/v.jpg);
   background-size: cover;
   position:absolute;
   bottom:0px;
@@ -226,7 +226,7 @@
 }
 
 .M2-shape li.item5 .bg {
-  background: url(http://localhost:3000/images/s.png);
+  background: url(../images/s.png);
   background-size: cover;
   position:absolute;
   bottom:-0px;
