@@ -208,7 +208,7 @@
 }
 
 .M2-shape li.item3 .bg {
-  background: url(http://localhost:3000/images/u.png);
+  background: url(../images/u.png);
   background-size: cover;
   position:absolute;
   bottom:0px;
