@@ -29,25 +29,25 @@
   opacity: 0.5;
 }
 
-.textbg {
-	font-family: 'Iceland', cursive;
-  font-weight: bold;
-	font-size: 2.9em;
+.diamond-text-position {
 /*	-webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;*/
 	position: relative;
 	top: 50%;
 	text-align: center;
-	color: white;
 	height: -100px;
 	-webkit-transform : rotate(-45deg) scale(1.0);
 	line-height: 0px;
+  background-color: transparent;
 }
 
-.budge{
-	position: relative;
-	right: -20px;
+.diamond-text-font {
+  font-family: 'Iceland', cursive;
+  font-weight: bold;
+  font-size: 2.9em;
+  color: white;
 }
+
 
 .M1-shape li:hover {
   opacity: 1;
@@ -78,56 +78,59 @@
   left: 100%;
 }
 
-.M1-shape li .bg {
+.M1-shape li .diamond-pic {
   width: 100%;
   height: 100%;
   transform: scale(1.1);
 }
 
-.M1-shape li.item1 .bg {
-  background: url("../images/b.png");
+.M1-shape li.item1 .diamond-pic {
+  background: url("../images_diamonds/bees.jpg");
   background-size: cover;
-  background-position: center;
+  /*background-position: center;*/  
   position:absolute;
   bottom:0px;
   right:0px;
-  -webkit-transform : rotate(-45deg) scale(1.4);
-}
-
-.M1-shape li.item2 .bg {
-  background: url(../images/d.png);
-  background-size: cover;
-  background-position: center;
-  -webkit-transform : rotate(90deg) scale(1.55);
-}
-
-.M1-shape li.item3 .bg {
-  background: url(../images/p.png);
-  background-size: cover;
-  background-position: center;
-  position:absolute;
-  bottom:10px;
-  right:5px;
   -webkit-transform : rotate(-45deg) scale(1.5);
 }
 
-.M1-shape li.item4 .bg {
-  background: url(../images/l.png);
+.M1-shape li.item2 .diamond-pic {
+  background: url("../images_diamonds/hair.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: center;  
+  position:absolute;
+  bottom:-10px;
+  right:10px;
+  -webkit-transform : rotate(-45deg) scale(1.6);
+}
+
+.M1-shape li.item3 .diamond-pic {
+  background: url("../images_diamonds/plant.jpg");
+  background-size: cover;
+  /*background-position: center;*/  
   position:absolute;
   bottom:0px;
   right:0px;
-  -webkit-transform : rotate(-45deg) scale(1.4);
+  -webkit-transform : rotate(-45deg) scale(1.5);
+}
+.M1-shape li.item4 .diamond-pic {
+  background: url("../images_diamonds/bird.jpg");
+  background-size: cover;
+  /*background-position: center;*/  
+  position:absolute;
+  bottom:0px;
+  right:20px;
+  -webkit-transform : rotate(-45deg) scale(1.5);
 }
 
-.M1-shape li.item5 .bg {
-  background: url(../images/c.png);
+.M1-shape li.item5 .diamond-pic {
+  background: url("../images_diamonds/moth.jpg");
   background-size: cover;
+  /*background-position: center;*/  
   position:absolute;
   bottom:-30px;
-  right:-15px;
-  -webkit-transform : rotate(-45deg) scale(1.8);
+  right:20px;
+  -webkit-transform : rotate(-45deg) scale(1.9);
 }
 
 .M2-shape {
@@ -183,56 +186,61 @@
   left: 100%;
 }
 
-.M2-shape li .bg {
+.M2-shape li .diamond-pic {
   width: 100%;
   height: 100%;
   transform: scale(1.1);
 }
 
-.M2-shape li.item1 .bg {
-  background: url(../images/q.png);
+.M2-shape li.item1 .diamond-pic {
+  background: url("../images_diamonds/bird.jpg");
   background-size: cover;
-  position:absolute;
-  bottom:-35px;
-  right:-45px;
-  -webkit-transform : rotate(-45deg) scale(1.8);
-}
-
-
-.M2-shape li.item2 .bg {
-  background: url(../images/r.png);
-  background-size: cover;
+  /*background-position: center;*/  
   position:absolute;
   bottom:0px;
-  right:0px;
-  -webkit-transform : rotate(-45deg) scale(1.3);
+  right:20px;
+  -webkit-transform : rotate(-45deg) scale(1.5);
 }
 
-.M2-shape li.item3 .bg {
-  background: url(../images/u.png);
+
+.M2-shape li.item2 .diamond-pic {
+  background: url("../images_diamonds/bird.jpg");
   background-size: cover;
+  /*background-position: center;*/  
   position:absolute;
   bottom:0px;
-  right:0px;
-  -webkit-transform : rotate(-45deg) scale(1.4);
+  right:20px;
+  -webkit-transform : rotate(-45deg) scale(1.5);
 }
 
-.M2-shape li.item4 .bg {
-  background: url(../images/v.jpg);
+.M2-shape li.item3 .diamond-pic {
+  background: url("../images_diamonds/bird.jpg");
   background-size: cover;
+  /*background-position: center;*/  
   position:absolute;
   bottom:0px;
-  right:0px;
-  -webkit-transform : rotate(-45deg) scale(1.8);
+  right:20px;
+  -webkit-transform : rotate(-45deg) scale(1.5);
 }
 
-.M2-shape li.item5 .bg {
-  background: url(../images/s.png);
+.M2-shape li.item4 .diamond-pic {
+  background: url("../images_diamonds/bird.jpg");
   background-size: cover;
+  /*background-position: center;*/  
   position:absolute;
-  bottom:-0px;
-  right:-30px;
-  -webkit-transform : rotate(-45deg) scale(1.4);
+  bottom:0px;
+  right:20px;
+  -webkit-transform : rotate(-45deg) scale(1.5);
+}
+
+.M2-shape li.item5 .diamond-pic {
+  background: url("../images_diamonds/bird.jpg");
+  background-size: cover;
+  /*background-position: center;*/  
+  position:absolute;
+  bottom:0px;
+  right:20px;
+  -webkit-transform : rotate(-45deg) scale(1.5);
 }
 
 
@@ -240,7 +248,7 @@
 /* https://stackoverflow.com/questions/27766343/change-background-color-every-30s-fade-transition/27766408 */
 /*
 
-.textbg {
+.diamond-text-position {
   -webkit-animation: background 5s cubic-bezier(1,0,0,1) infinite;
   animation: background 100s cubic-bezier(1,0,0,1) infinite;  
 }
@@ -260,3 +268,5 @@
   80% { color: #99f; }
   100% { color: #f99; }
 }*/
+
+
