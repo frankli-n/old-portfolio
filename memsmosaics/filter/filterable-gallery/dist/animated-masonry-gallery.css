@@ -4,6 +4,7 @@ body {
 	background-color: #eeeeee;
 	font-family: 'Source Sans Pro', sans-serif;
 }
+
 #header{
 	background-color: #3f8dbf;
 	float: left;
@@ -92,6 +93,7 @@ body {
 	float: left;
 	width: 100%;
 }
+
 #gallery-header{
 	height: 100px;
 	width: 100%;

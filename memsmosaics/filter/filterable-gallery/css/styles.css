@@ -3,11 +3,13 @@
   padding: 0;
 /*  background-color: #000;
 */  font-family: poppins, sans-serif;
-  color: white
+  color: #1a0000;
+  scroll-behavior: smooth;
 }
 
 .windowdiv {
     height: 100vh;
+    background-color: black;
 }
 
 .M1-shape {
