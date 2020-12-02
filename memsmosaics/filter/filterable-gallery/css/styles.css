@@ -52,8 +52,8 @@
 .M1-shape li {
   list-style: none;
   position: absolute;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   background: #000;
   transform: rotate(45deg);
   transition: 0.5s;
@@ -117,19 +117,18 @@
 
 @media (max-width: 800px) {
 .M1-shape li.item1 {
-  top: -220px;
+  top: -150px;
   left: 0px;
 }
 
 .M1-shape li.item2 {
   position: relative;
-  top: 0px;
+  top: 150px;
   left: 0px;
 }
 
 .M1-shape li.item3 {
-  top: 220px;
-  left: 0px;
+  display: none;
 }
 
 .M1-shape li.item4 {

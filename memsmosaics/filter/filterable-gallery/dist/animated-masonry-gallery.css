@@ -179,6 +179,7 @@ body {
 }
 }
 
+@media (min-width: 581px) {
 #gallery-header-center-right-social{
 	float: right;
 	height: 35px;
@@ -187,7 +188,17 @@ body {
 	margin-left: 60px;
 	padding-right: 50px;
 }
-
+}
+@media (max-width: 580px) {
+#gallery-header-center-right-social{
+	float: left;
+	height: 35px;
+	margin-top: 32px;
+	line-height: 35px;
+	margin-left: 60px;
+	padding-right: 50px;
+}
+}
 
 
 .gallery-header-center-right-links {
@@ -219,6 +230,9 @@ body {
 	-o-transition: background 0.5s;
 	transition: background 0.5s;
 }
+
+
+
 
 .email_icon {
 	line-height: 0px
@@ -257,6 +271,7 @@ body {
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
 	margin-left: 10px;
+	
 }
 
 button {
