@@ -7,8 +7,12 @@
 }
 
 .windowdiv {
-    height: 100vh;
-    background-color: black;
+  height: 100vh;
+  background-color: black;
+}
+
+.m-container {
+  width: max-width;
 }
 
 @media (min-width: 801px) {
@@ -43,25 +47,21 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin: 0;
-  padding: 0;
-  width: 600px;
-  height: 150px;
 }
 
 .M1-shape li {
   list-style: none;
   position: absolute;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   background: #000;
   transform: rotate(45deg);
   transition: 0.5s;
-  margin: -100px;
   overflow: hidden;
   opacity: 0.5;
 }
 }
+
 
 
 .diamond-text-position {
@@ -88,8 +88,6 @@
   opacity: 1;
 }
 
-
-/*large devices*/
 @media (min-width: 801px) {
 .M1-shape li.item1 {
   bottom: 0;
@@ -117,32 +115,29 @@
 }
 }
 
-
-/*small devices*/
-@media (max-width: 801px) {
+@media (max-width: 800px) {
 .M1-shape li.item1 {
-  bottom: 50%;
-  left: 50%;
+  top: -220px;
+  left: 0px;
 }
 
 .M1-shape li.item2 {
-  bottom: 50%;
-  left: 50%;
+  position: relative;
+  top: 0px;
+  left: 0px;
 }
 
 .M1-shape li.item3 {
-  bottom: 50%;
-  left: 50%;
+  top: 220px;
+  left: 0px;
 }
 
 .M1-shape li.item4 {
-  bottom: 50%;
-  left: 50%;
+  display: none;
 }
 
 .M1-shape li.item5 {
-  bottom: 60%;
-  left: 60%;
+  display: none;
 }
 }
 
@@ -167,8 +162,8 @@
   background-size: cover;
   background-position: center;  
   position:absolute;
-  bottom:-10px;
-  right:10px;
+  bottom:0px;
+  right:0px;
   -webkit-transform : rotate(-45deg) scale(1.6);
 }
 

@@ -96,7 +96,7 @@ body {
 	width: 100%;
 }
 
-@media (min-width: 819px) {
+@media (min-width: 581px) {
 #gallery-header{
 	height: 100px;
 	width: 100%;
@@ -104,7 +104,7 @@ body {
 }
 }
 
-@media (max-width: 818px) {
+@media (max-width: 580px) {
 #gallery-header{
 	height: 200px;
 	width: 100%;
