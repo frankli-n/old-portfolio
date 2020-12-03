@@ -120,21 +120,24 @@ body {
 	margin-left: auto;
 }
 
-/*@media (min-width: 818px) {
-*/#gallery-header-center-left{
+@media (min-width: 616px) {
+#gallery-header-center-left{
 	float: left;
 	height: 35px;
 	line-height: 35px;
 	margin-top: 32px;
 	padding-left: 50px;
-}
+}}
 /*}*/
 
-/*@media (max-width: 818px) {
+@media (max-width: 615px) {
 #gallery-header-center-left{
-	display: none;
+	float: left;
+	height: 35px;
+	line-height: 35px;
+	margin-top: 32px;
 }
-}*/
+}
 @media (min-width: 651px) {
 #gallery-header-center-left-icon{
 	float: left;
@@ -214,7 +217,6 @@ body {
 	height: 35px;
 	margin-top: 32px;
 	line-height: 35px;
-	margin-left: 60px;
 	padding-right: 50px;
 }
 }

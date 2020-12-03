@@ -49,6 +49,8 @@
   transform: translate(-50%, -50%);
 }
 
+
+
 .M1-shape li {
   list-style: none;
   position: absolute;
@@ -115,7 +117,7 @@
 }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 800px) and (min-width: 330px) {
 .M1-shape li.item1 {
   top: -150px;
   left: 0px;
@@ -145,6 +147,36 @@
   height: 100%;
   transform: scale(1.1);
 }
+
+@media (max-width: 329px){
+.M1-shape li.item1 {
+  top: -130px;
+  left: 0px;
+  transform: scale(0.8) rotate(45deg);
+
+}
+
+.M1-shape li.item2 {
+  position: relative;
+  top: 130px;
+  left: 0px;
+  transform: scale(0.8) rotate(45deg);
+}
+
+.M1-shape li.item3 {
+  display: none;
+}
+
+.M1-shape li.item4 {
+  display: none;
+}
+
+.M1-shape li.item5 {
+  display: none;
+}
+}
+
+
 
 .M1-shape li.item1 .diamond-pic {
   background: url("../images_diamonds/moth.jpg");
