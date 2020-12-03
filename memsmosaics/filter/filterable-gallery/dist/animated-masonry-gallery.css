@@ -96,7 +96,7 @@ body {
 	width: 100%;
 }
 
-@media (min-width: 581px) {
+@media (min-width: 804px) {
 #gallery-header{
 	height: 100px;
 	width: 100%;
@@ -104,7 +104,7 @@ body {
 }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 803px) {
 #gallery-header{
 	height: 200px;
 	width: 100%;
@@ -120,22 +120,22 @@ body {
 	margin-left: auto;
 }
 
-@media (min-width: 818px) {
-#gallery-header-center-left{
+/*@media (min-width: 818px) {
+*/#gallery-header-center-left{
 	float: left;
 	height: 35px;
 	line-height: 35px;
 	margin-top: 32px;
 	padding-left: 50px;
 }
-}
+/*}*/
 
-@media (max-width: 818px) {
+/*@media (max-width: 818px) {
 #gallery-header-center-left{
 	display: none;
 }
-}
-
+}*/
+@media (min-width: 651px) {
 #gallery-header-center-left-icon{
 	float: left;
 	height: 35px;
@@ -149,16 +149,35 @@ body {
 	-o-transition: background 0.5s;
 	transition: background 0.5s;
 }
+}
+
+@media (max-width: 650px) {
+#gallery-header-center-left-icon{
+	display: none;
+}
+}
+
+
+
 #gallery-header-center-left-icon:hover {
 	background-color: rgba(63,141,191,0.5);
 	cursor: pointer;
 }
+
+@media (min-width: 819px) {
 #gallery-header-center-left-title{
 	float: left;
 	height: 35px;
 	font-size: 25px;
 	color: #3f8dbf;
 	margin-left: 20px;
+}
+}
+
+@media (max-width: 818px) {
+#gallery-header-center-left-title{
+	display: none;
+}
 }
 
 @media (min-width: 819px) {
@@ -179,7 +198,7 @@ body {
 }
 }
 
-@media (min-width: 581px) {
+@media (min-width: 616px) {
 #gallery-header-center-right-social{
 	float: right;
 	height: 35px;
@@ -189,7 +208,7 @@ body {
 	padding-right: 50px;
 }
 }
-@media (max-width: 580px) {
+@media (max-width: 615px) {
 #gallery-header-center-right-social{
 	float: left;
 	height: 35px;
@@ -259,10 +278,13 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 }
+
 .gallery-content-center-full {
 	float: left;
 	width: 100%;
+	margin: 0;
 }
+
 #gallery-content-center img {
 	width: 300px;
 	margin-bottom: 10px;
@@ -271,7 +293,7 @@ body {
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
 	margin-left: 10px;
-	
+
 }
 
 button {
