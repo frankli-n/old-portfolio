@@ -15,7 +15,7 @@
   width: max-width;
 }
 
-@media (min-width: 801px) {
+@media (min-width: 891px) {
 .M1-shape {
   position: absolute;
   top: 55%;
@@ -41,7 +41,7 @@
 }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 890px) {
 .M1-shape {
   position: absolute;
   top: 60%;
@@ -88,7 +88,7 @@
   opacity: 1;
 }
 
-@media (min-width: 801px) {
+@media (min-width: 891px) {
 .M1-shape li.item1 {
   bottom: 0;
   left: 0;
@@ -115,7 +115,7 @@
 }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 890px) {
 .M1-shape li.item1 {
   top: -150px;
   left: 0px;

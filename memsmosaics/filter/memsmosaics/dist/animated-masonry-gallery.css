@@ -113,44 +113,33 @@ body {
 
 @media screen and (max-width: 1250px) {
     #gallery-header-center {
-    		height: 100px;
+    height: 100px;
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
-        width: 940px;
+    width: 940px;
     }
 }
 
 @media screen and (max-width: 960px) {
     #gallery-header-center {
-    		height: 100px;
+    height: 100px;
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
-        width: 630px;
+    width: 630px;
     }
 }
 
 @media screen and (max-width: 670px) {
     #gallery-header-center {
-    		height: 100px;
+    height: 100px;
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
-        width: 320px;
+    width: 320px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 @media (min-width: 651px) {
 #gallery-header-center-left{
@@ -218,15 +207,13 @@ body {
 	line-height: 35px;
 }
 
-
-
 .gallery-header-center-right-links {
 	color: #333333;
 	float: left;
 	height: 35px;
 	padding-right: 20px;
 	padding-left: 20px;
-	margin-left: 20px;
+	margin-left: 10px;
 	font-size: 16px;
 	font-weight: 400;
 	-webkit-transition: background 0.5s;
@@ -234,24 +221,6 @@ body {
 	-o-transition: background 0.5s;
 	transition: background 0.5s;
 }
-
-.gallery-header-center-right-links-social {
-	color: #333333;
-	float: left;
-	height: 35px;
-/*	padding-right: 2px;
-	padding-left: 2px;*/
-	margin-left: 20px;
-	font-size: 16px;
-	font-weight: 400;
-	-webkit-transition: background 0.5s;
-	-moz-transition: background 0.5s;
-	-o-transition: background 0.5s;
-	transition: background 0.5s;
-}
-
-
-
 
 .email_icon {
 	line-height: 0px
