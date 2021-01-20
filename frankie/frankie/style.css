@@ -1,0 +1,179 @@
+* {
+  /*transition: all 1s;*/
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  cursor: pointer;
+  position: relative;
+  padding: 10px 20px;
+  background: white;
+  font-size: 28px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  transition: all 1s;
+}
+.btn:after, .btn:before {
+  content: " ";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border: 0px solid #fff;
+  transition: all 1s;
+}
+.btn:after {
+  top: -1px;
+  left: -1px;
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+}
+.btn:before {
+  bottom: -1px;
+  right: -1px;
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+}
+.btn:hover {
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.btn:hover:before, .btn:hover:after {
+  width: 100%;
+  height: 100%;
+}
+
+.background-container {
+  background: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dc {
+  transition: all 1s;
+}
+
+.frankie {
+  height: 50px;
+}
+
+.websites {
+  position: fixed;
+  top: 4%;
+  left: 1%;
+}
+
+.resume {
+  position: fixed;
+  top: 4%;
+  right: 1%;
+}
+
+.music {
+  position: fixed;
+  bottom: 4%;
+  left: 1%;
+}
+
+.doom {
+  position: fixed;
+  bottom: 4%;
+  right: 1%;
+}
+
+/**/
+/*click classes*/
+/**/
+
+.doomClass {
+  background: url("IDDQD.jpg");
+  transition: all 1s;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px 35px;
+
+}
+.background-container-doom {
+  background-image: linear-gradient(#330000, #660000);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.websitesClass {
+  background: url("websites.png");
+  transition: all 1s;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  cursor: pointer;
+  position: relative;
+  padding: 180px 370px;
+  width: 400;
+  height: 200;
+  font-size: 28px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.background-container-websites {
+  background: orange;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.musicClass {
+  background: url("music.png");
+  transition: all 1s;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #111;
+  cursor: pointer;
+  position: relative;
+  padding: 140px 280px;
+  font-size: 28px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+}
+.background-container-music {
+  background: beige;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+.resumeClass {
+  background: url("resume.jpg");
+  transition: all 1s;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #111;
+  padding: 50px 435px;
+}
+.background-container-resume {
+  background: yellow;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
