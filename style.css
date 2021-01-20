@@ -10,6 +10,7 @@ body {
 .btn {
   cursor: pointer;
   position: relative;
+  /*change button size here*/
   padding: 10px 20px;
   background: white;
   font-size: 28px;
@@ -17,6 +18,8 @@ body {
   border-bottom-left-radius: 10px;
   transition: all 1s;
 }
+
+
 .btn:after, .btn:before {
   content: " ";
   width: 10px;
@@ -110,42 +113,45 @@ body {
 
 .websitesClass {
   background: url("websites.png");
-  transition: all 1s;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: black;
-  cursor: pointer;
-  position: relative;
-  padding: 180px 370px;
-  width: 400;
-  height: 200;
-  font-size: 28px;
-  border-top-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-}
-.background-container-websites {
-  background: orange;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-
-.musicClass {
-  background: url("music.png");
+  background-size: 101% 101%;
   transition: all 1s;
   background-repeat: no-repeat;
   background-position: center;
   background-color: #111;
   cursor: pointer;
   position: relative;
-  padding: 140px 280px;
   font-size: 28px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
+}
+.background-container-websites {
+  background: beige;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn.whoami.websitesClass{
+  padding-right: 25vw;
+  padding-left: 25vw;
+  padding-top: 22%;
+  padding-bottom: 22%;
+}
 
+
+
+.musicClass {
+  background: url("music.png");
+  background-size: 101% 101%;
+  transition: all 1s;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #111;
+  cursor: pointer;
+  position: relative;
+  font-size: 28px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 .background-container-music {
   background: beige;
@@ -153,18 +159,22 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
-
+.btn.whoami.musicClass{
+  padding-right: 22.5vw;
+  padding-left: 22.5vw;
+  padding-top: 28%;
+  padding-bottom: 28%;
+}
 
 
 .resumeClass {
   background: url("resume.jpg");
+  background-size: 101% 101%;
   transition: all 1s;
   background-repeat: no-repeat;
   background-position: center;
   background-color: #111;
-  padding: 50px 435px;
 }
 .background-container-resume {
   background: yellow;
@@ -173,7 +183,10 @@ body {
   justify-content: center;
   align-items: center;
 }
-
-
-
+.btn.whoami.resumeClass{
+  padding-left: 37.5vw;
+  padding-right: 37.5vw;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
 
