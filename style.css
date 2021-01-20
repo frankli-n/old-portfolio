@@ -12,7 +12,7 @@ body {
   position: relative;
   /*change button size here*/
   padding: 10px 20px;
-  background: white;
+  background: #B9B9B9;
   font-size: 28px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -50,7 +50,7 @@ body {
 }
 
 .background-container {
-  background: white;
+  background: #B985D6;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -102,7 +102,7 @@ body {
 
 }
 .background-container-doom {
-  background-image: linear-gradient(#330000, #660000);
+  background-image: linear-gradient(#440000, #230000);
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -125,7 +125,7 @@ body {
   border-bottom-left-radius: 10px;
 }
 .background-container-websites {
-  background: beige;
+  background: orange;
   height: 100vh;
   display: flex;
   justify-content: center;
