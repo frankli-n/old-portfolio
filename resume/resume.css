@@ -1,0 +1,172 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	font-family: "Roboto Mono";
+}
+
+#alien {
+	/*height: 100%;
+	width: 300px;*/
+	/*float: left;*/
+}
+
+img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	}
+
+#xtc {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	object-position: 0 0;
+}
+
+#lis2 {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	object-position: 50% 10%;
+}
+
+
+#bw {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	object-position: 50% 65%;
+}
+
+#rocketman {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	object-position: 50% 50%;
+}
+
+#happy-feet {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	object-position: 80% 50%;
+}
+
+.pic-top {
+	float: left;
+	height: 150px;
+	width: 25%;
+	/*background-color: blue;*/
+	/*border-style: solid;*/
+}
+
+.pic-bottom {
+	float: left;
+	height: 150px;
+	width: 25%;
+	/*background-color: blue;*/
+	/*border-style: solid;*/
+
+}
+
+.banner {
+  margin: auto;
+  width: 50%;
+  /*border: 3px solid #73AD21;*/
+  height: 150px;
+  float: left;
+}
+
+.banner2 {
+  margin: auto;
+  width: 50%;
+  /*border: 3px solid #73AD21;*/
+  height: 150px;
+  float: left;
+}
+
+#cs {
+	height: 90%;
+	width: 100%;
+	object-fit: scale-down;
+/*	margin-left: auto;
+	margin-right: auto;*/
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 15px;
+}
+
+#al {
+  	height: 90%;
+	width: 100%;
+	object-fit: scale-down;
+/*	margin-left: auto;
+	margin-right: auto;*/
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 15px;
+}
+
+#content {
+
+  float: left;
+  /*border: solid black;*/
+  padding: 70px;
+  width: 100%;
+}
+
+
+
+.responsibilities {
+	font-weight: bold;
+}
+
+.skills {
+	font-weight: bold;
+}
+
+.time-served {
+	color: gray;
+	font-style: italic;
+	font-family: arial;
+}
+
+.paras {
+	/*margin-top: 10px;*/
+	/*border: dotted gray;*/
+}
+p {
+	margin: 30px;
+}
+
+.skills {
+
+}
+
+ summary::-webkit-details-marker {
+ color: #00ACF3;
+ font-size: 125%;
+ margin-right: 2px;
+}
+summary:focus {
+	outline-style: none;
+}
+article > details > summary {
+}
+
+details ul {
+	color: #464646;	
+	/*padding-left: 60px;*/
+}
+
+details details {
+	padding-left: 30px;
+	/*color: #464646;	*/
+}
+
+
+
+
+
+
+

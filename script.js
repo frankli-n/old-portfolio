@@ -9,7 +9,8 @@ document.querySelector('.doom').addEventListener('click', () => {
   	document.querySelector('.dc').classList.add('background-container');
   	document.getElementById("centrebutton").innerHTML = "24hr support";
 
-
+    document.querySelector(":root").style.setProperty('--main-white', 'white');
+    document.querySelector(":root").style.setProperty('--main-black', 'black');
 
   } else {
   	// CLICKING ON DOOM
@@ -20,9 +21,11 @@ document.querySelector('.doom').addEventListener('click', () => {
 	  document.getElementById("centrebutton").innerHTML = "";
 
 	  document.getElementById("canvasmen").style.visibility = "hidden";
+
+    document.querySelector(":root").style.setProperty('--main-white', 'black');
+    document.querySelector(":root").style.setProperty('--main-black', '#633333');
   }
 }); 
-
 
 
 // 
@@ -30,23 +33,32 @@ document.querySelector('.doom').addEventListener('click', () => {
 // 
 document.querySelector('.websites').addEventListener('click', () => {
   if (document.getElementById("centrebutton").classList.contains('websitesClass')) {
-  	// CLICKING OFF WEBSITES
-  	document.getElementById("centrebutton").classList.remove('websitesClass');
-  	document.querySelector('.dc').classList.remove('background-container-websites');
-  	document.querySelector('.dc').classList.add('background-container');
-  	document.getElementById("centrebutton").innerHTML = "24hr support";
+    // CLICKING OFF WEBSITES
+    document.getElementById("centrebutton").classList.remove('websitesClass');
+    document.querySelector('.dc').classList.remove('background-container-websites');
+    document.querySelector('.dc').classList.add('background-container');
+    document.getElementById("centrebutton").innerHTML = "24hr support";
+
+    document.querySelector(":root").style.setProperty('--main-white', 'white');
+    document.querySelector(":root").style.setProperty('--main-black', 'black');
 
   } else {
-  	  // CLICKING ON WEBSITES
-	  document.getElementById("centrebutton").classList.remove('doomClass', 'musicClass', 'resumeClass');
-	  document.getElementById("centrebutton").classList.add('websitesClass');
-	  document.querySelector('.dc').classList.remove('background-container', 'background-container-resume' ,'background-container-music', 'background-container-doom');
-	  document.querySelector('.dc').classList.add('background-container-websites');
-	  document.getElementById("centrebutton").innerHTML = "";
+      // CLICKING ON WEBSITES
+    document.getElementById("centrebutton").classList.remove('doomClass', 'musicClass', 'resumeClass');
+    document.getElementById("centrebutton").classList.add('websitesClass');
+    document.querySelector('.dc').classList.remove('background-container', 'background-container-resume' ,'background-container-music', 'background-container-doom');
+    document.querySelector('.dc').classList.add('background-container-websites');
+    document.getElementById("centrebutton").innerHTML = "";
+    // document.querySelector(".btn:after").style.borderTop = "solid #0000FF";
 
-	  document.getElementById("canvasmen").style.visibility = "hidden";
+    document.getElementById("canvasmen").style.visibility = "hidden";
+
+    document.querySelector(":root").style.setProperty('--main-white', '#00ffa5');
+    document.querySelector(":root").style.setProperty('--main-black', '#a500ff');
   }
 }); 
+
+
 
 
 
@@ -62,6 +74,9 @@ document.querySelector('.resume').addEventListener('click', () => {
   	document.querySelector('.dc').classList.add('background-container');
   	document.getElementById("centrebutton").innerHTML = "24hr support";
 
+    document.querySelector(":root").style.setProperty('--main-white', 'black');
+    document.querySelector(":root").style.setProperty('--main-black', 'white');
+
   } else {
   	  // CLICKING ON RESUME
 	  document.getElementById("centrebutton").classList.remove('doomClass', 'musicClass', 'websitesClass');
@@ -70,7 +85,11 @@ document.querySelector('.resume').addEventListener('click', () => {
 	  document.querySelector('.dc').classList.add('background-container-resume');
 	  document.getElementById("centrebutton").innerHTML = "";
 
+
 	  document.getElementById("canvasmen").style.visibility = "hidden";
+
+    document.querySelector(":root").style.setProperty('--main-white', 'navy');
+    document.querySelector(":root").style.setProperty('--main-black', 'pink');
   }
 }); 
 
@@ -82,15 +101,18 @@ document.querySelector('.resume').addEventListener('click', () => {
 // For clicking on the music button
 // 
 document.querySelector('.music').addEventListener('click', () => {
-	// CLICKING OFF DOOM
+	// CLICKING OFF MUSIC
   if (document.getElementById("centrebutton").classList.contains('musicClass')) {
   	document.getElementById("centrebutton").classList.remove('musicClass');
   	document.querySelector('.dc').classList.remove('background-container-music');
   	document.querySelector('.dc').classList.add('background-container');
   	document.getElementById("centrebutton").innerHTML = "24hr support";
 
+    document.querySelector(":root").style.setProperty('--main-white', 'white');
+    document.querySelector(":root").style.setProperty('--main-black', 'black');
+
   } else {
-  	  // CLICKING ON DOOM
+  	  // CLICKING ON MUSIC
 	  document.getElementById("centrebutton").classList.remove('doomClass', 'resumeClass', 'websitesClass');
 	  document.getElementById("centrebutton").classList.add('musicClass');
 	  document.querySelector('.dc').classList.remove('background-container', 'background-container-websites' ,'background-container-resume', 'background-container-doom');
@@ -98,6 +120,9 @@ document.querySelector('.music').addEventListener('click', () => {
 	  document.getElementById("centrebutton").innerHTML = "";
 
 	  document.getElementById("canvasmen").style.visibility = "hidden";
+
+    document.querySelector(":root").style.setProperty('--main-white', 'skyblue');
+    document.querySelector(":root").style.setProperty('--main-black', 'white');
   }
 }); 
 
@@ -111,16 +136,16 @@ document.querySelector('.music').addEventListener('click', () => {
 document.getElementById("centrebutton").addEventListener('click', () => {
   if (document.getElementById("canvasmen").style.visibility === "visible") {
   	document.getElementById("canvasmen").style.visibility = "hidden";
-  	document.getElementById("centrebutton").innerHTML = "24hr support";
+  	document.getElementById("centrebutton").innerHTML = "help?!";
 
   } else if (document.getElementById("centrebutton").classList.contains('doomClass')) {
   	window.open("https://playclassic.games/games/first-person-shooter-dos-games-online/play-doom-online/play/");
   } else if (document.getElementById("centrebutton").classList.contains('resumeClass')) {
-  	window.open("resume.html");
+  	window.open("resume/resume.html");
   } else if (document.getElementById("centrebutton").classList.contains('websitesClass')) {
-  	window.open("websites.html");
+  	window.open("websites/websites.html");
   } else if (document.getElementById("centrebutton").classList.contains('musicClass')) {
-  	window.open("music.html");
+  	window.open("music/music.html");
 
 
   }	else {
