@@ -154,5 +154,11 @@ document.getElementById("centrebutton").addEventListener('click', () => {
   	}
 });
 
+const bugle = String.fromCodePoint(0x1F3BA)
+const horn = String.fromCodePoint(0x1F4EF)
+const pretzel_head = String.fromCodePoint(0x1F5E3) 
+const italia = String.fromCodePoint(0x1F1EE)
 
+console.log("%c" + bugle + horn + " Doop do dooooooo! " + bugle + horn, "color: blue; font-size: 30px" );
+console.log("%c" + pretzel_head +" Josh is an idiot ", "color: red; font-size: 30px" );
 
