@@ -136,7 +136,9 @@ img {
   height: 100vh;
 }
 
-
+.grouped-pics {
+	position: relative;
+}
 
 .responsibilities {
 	font-weight: bold;
